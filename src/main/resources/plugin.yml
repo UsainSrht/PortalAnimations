@@ -1,0 +1,6 @@
+name: PortalAnimations
+version: '${project.version}'
+main: me.usainsrht.portalanimations.PortalAnimations
+api-version: 1.19
+authors: [UsainSrht]
+description: Creates simple portal animations when player's create nether/end portal.

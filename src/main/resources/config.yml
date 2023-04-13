@@ -1,0 +1,15 @@
+# List of available animations:
+# - GROWTH_EVERY_BLOCK
+# - GROWTH
+# - ENCHANTED_OBSIDIAN
+# - STRIKE
+animations:
+  FIRE:
+    type: GROWTH_EVERY_BLOCK
+    time: 20
+  NETHER_PAIR:
+    type: ENCHANTED_OBSIDIAN
+    time: 100
+  END_PLATFORM:
+    type: ENCHANTED_OBSIDIAN
+    time: 100
