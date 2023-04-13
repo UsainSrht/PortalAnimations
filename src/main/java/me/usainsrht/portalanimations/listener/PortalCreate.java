@@ -14,6 +14,6 @@ public class PortalCreate implements Listener {
         String anim = PortalAnimations.getInstance().getConfig().getString("animations." + reason + ".type");
         int time = PortalAnimations.getInstance().getConfig().getInt("animations." + reason + ".time");
         Animation animation = Animation.valueOf(anim);
-        animation.play(e.getBlocks());
+        animation.play(e.getBlocks(), time);
     }
 }
