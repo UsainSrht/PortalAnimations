@@ -17,7 +17,7 @@ public class PortalAnimationsCommand extends Command {
 
     @Override
     public boolean execute(@NotNull CommandSender sender, @NotNull String command, String[] args) {
-        if (!sender.hasPermission(PortalAnimations.getInstance().getConfig().getString("command.permission"))) return true;
+        if (!sender.hasPermission("portalanimations.command")) return true;
         if (args.length == 0) return true;
         if (args[0].equalsIgnoreCase("reload")) {
             PortalAnimations.reload();
